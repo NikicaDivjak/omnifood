@@ -1,0 +1,227 @@
+
+@media only screen and (max-width: 1200px) {
+
+
+
+    .main-many {
+        margin-right: 20px;
+    }
+
+
+    .hero-text-box {
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    /*--- meals ----*/
+
+    .meals-block {
+        margin: 0 20px;
+    }
+
+    .meals-top {
+        min-height: 50px;
+    }
+
+    /*--- Cities --*/
+
+    .box {
+        display: block;
+        float: left;
+        margin: 1% 0 1% 1%;
+    }
+
+    /*-- Testemonials --*/
+
+    .section-testimonials {
+        padding: 0 10px;
+    }
+
+    /*-- how it works --*/
+
+    .step-box:first-child {
+        padding-top: 26px;
+    }
+
+    .app-screen {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+    html {
+        font-size: 18px;
+    }
+
+    h2 {
+        padding-top: 60px;
+    }
+
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+    .btn-ap img {
+        height: 40px;
+        width: auto;
+        padding-right: 10px;
+    }
+
+    .work-step div {
+
+        height: 40px;
+        width: 40px;
+        padding-top: 4px;
+
+    }
+
+    .step-box:last-child {
+        margin-top: 40px;
+    }
+
+    .icon-small {
+        color: #e67e22;
+        font-size: 80%;
+        margin-right: 5px;
+    }
+
+    .guide {
+        letter-spacing: -1px;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+}
+@media only screen and (max-width: 768px) {
+    .col {
+        width: 100%;
+    }
+    
+      .hero-text-box h1 {
+        padding-top: 80px;
+    }
+    
+    .btn-full {
+        margin-bottom: 10px;
+    }
+    
+    .main-many {
+        display: none;
+        margin-top: 100px;
+        position: absolute;
+        right: 10px;
+        z-index: 100;
+         background-color: #7e7676;
+        border-radius: 10px;
+    }
+    
+    .main-many li {
+        display: block;
+        margin: 8px 0;
+        padding: 5px;
+       
+    }
+    
+    .sticky .main-many {
+        background-color: #fff;
+        border: 1px solid #7e7676;
+    }
+    
+    .sticky .main-many li {
+        display: block;
+        margin: 8px 0;
+        padding: 5px;
+         }
+  .sticky .main-many li a:link,
+  .sticky .main-many li a:visited {
+        padding: 5px 0;
+  }
+    .mobile-many {
+        display: block;
+        position: relative;
+             
+    }
+    
+    .mobile-many :active,
+    .mobile-many :hover{
+        cursor: pointer;
+    }
+    
+    
+    
+    .step-box:first-child {
+        text-align: center;
+        padding-right: 3%;
+    }
+
+    .plan-box {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    
+    .plan-mob {
+        margin: 1% 0;
+    }
+
+    .work-step p {
+        text-align: left;
+    }
+
+    .box img {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .section-form {
+    text-align: center;
+}
+    .guide {
+        display: block;
+        width:165px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    }
+
+
+@media only screen and (max-width: 480px) {
+
+    /*.section-testimonials.span-3-of-3 {
+		width: 100%; 
+	}*/
+    
+    .hero-text-box h1 {
+        line-height: 140%;
+        font-size: 140%;
+        padding-top: 80px;
+    }
+    
+    .nav-link li {
+        padding-right: 10px;
+    }
+    
+    footer {
+        font-size: 65%;
+    }
+    
+}
